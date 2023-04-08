@@ -44,8 +44,8 @@ unsigned long previousMillis = 0;
 const long interval = 50;   
 
 // Logins for WiFi
-const char* ssid = "WIFI_SSID"; // name of WiFi network
-const char* password = "WIFI_PWD"; // the password
+const char* ssid = "GreenHub_2.4"; // name of WiFi network
+const char* password = "greenhub"; // the password
 
 // create a WebSocket on port 81
 WebSocketsServer webSocket = WebSocketsServer(81);
